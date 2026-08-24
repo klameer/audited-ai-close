@@ -1,0 +1,105 @@
+{
+ "system": "Caldergate ERP (mock)",
+ "dataset": "budget",
+ "fiscal_year": "FY26",
+ "units": "GBP thousands",
+ "note": "FY26 budget by line and month (MTD). Source for the Drive budget.xlsx; NOT served by the API.",
+ "lines": {
+  "Facilities & Safety Supplies": {
+   "Jan-26": 8390,
+   "Feb-26": 8107,
+   "Mar-26": 9048,
+   "Apr-26": 11123,
+   "May-26": 8216,
+   "Jun-26": 9651
+  },
+  "Industrial Consumables & Packaging": {
+   "Jan-26": 9013,
+   "Feb-26": 8586,
+   "Mar-26": 9450,
+   "Apr-26": 8797,
+   "May-26": 8361,
+   "Jun-26": 9685
+  },
+  "Office & Print Solutions": {
+   "Jan-26": 4678,
+   "Feb-26": 4413,
+   "Mar-26": 4808,
+   "Apr-26": 4438,
+   "May-26": 4176,
+   "Jun-26": 4790
+  },
+  "Cost of goods sold": {
+   "Jan-26": 16629,
+   "Feb-26": 15889,
+   "Mar-26": 17534,
+   "Apr-26": 18218,
+   "May-26": 15599,
+   "Jun-26": 18125
+  },
+  "Warehouse & Logistics": {
+   "Jan-26": 1616,
+   "Feb-26": 1620,
+   "Mar-26": 1625,
+   "Apr-26": 1660,
+   "May-26": 1663,
+   "Jun-26": 1667
+  },
+  "Sales & Account Management": {
+   "Jan-26": 1214,
+   "Feb-26": 1204,
+   "Mar-26": 1236,
+   "Apr-26": 1278,
+   "May-26": 1230,
+   "Jun-26": 1278
+  },
+  "Procurement & Merchandising": {
+   "Jan-26": 568,
+   "Feb-26": 569,
+   "Mar-26": 569,
+   "Apr-26": 585,
+   "May-26": 586,
+   "Jun-26": 587
+  },
+  "IT & Digital": {
+   "Jan-26": 503,
+   "Feb-26": 505,
+   "Mar-26": 507,
+   "Apr-26": 518,
+   "May-26": 519,
+   "Jun-26": 522
+  },
+  "General & Administrative": {
+   "Jan-26": 840,
+   "Feb-26": 826,
+   "Mar-26": 787,
+   "Apr-26": 806,
+   "May-26": 807,
+   "Jun-26": 808
+  },
+  "Depreciation & amortisation": {
+   "Jan-26": 400,
+   "Feb-26": 400,
+   "Mar-26": 400,
+   "Apr-26": 400,
+   "May-26": 400,
+   "Jun-26": 400
+  },
+  "Interest expense, net": {
+   "Jan-26": 144,
+   "Feb-26": 141,
+   "Mar-26": 138,
+   "Apr-26": 135,
+   "May-26": 132,
+   "Jun-26": 129
+  },
+  "Taxation": {
+   "Jan-26": 42,
+   "Feb-26": 0,
+   "Mar-26": 128,
+   "Apr-26": 190,
+   "May-26": 0,
+   "Jun-26": 152
+  }
+ }
+}

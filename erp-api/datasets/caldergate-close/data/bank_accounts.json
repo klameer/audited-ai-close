@@ -1,0 +1,13 @@
+{
+ "system": "Caldergate ERP (mock)",
+ "accounts": [
+  {
+   "account_id": "main",
+   "name": "Caldergate Distribution Group Ltd \u2014 Operating Account",
+   "bank": "Pennine Commercial Bank plc",
+   "sort_code": "99-42-07",
+   "account_no": "00341275",
+   "currency": "GBP"
+  }
+ ]
+}

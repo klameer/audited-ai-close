@@ -1,0 +1,57 @@
+{
+ "system": "Caldergate ERP (mock)",
+ "dataset": "trial_balance",
+ "period": "May-26",
+ "units": "GBP thousands",
+ "note": "P&L trial balance, MTD and YTD actuals. Ties to the issued Monthly Reporting Packs.",
+ "lines": {
+  "Facilities & Safety Supplies": {
+   "mtd_actual": 8343,
+   "ytd_actual": 45069
+  },
+  "Industrial Consumables & Packaging": {
+   "mtd_actual": 8464,
+   "ytd_actual": 43974
+  },
+  "Office & Print Solutions": {
+   "mtd_actual": 4256,
+   "ytd_actual": 22388
+  },
+  "Cost of goods sold": {
+   "mtd_actual": 15843,
+   "ytd_actual": 83791
+  },
+  "Warehouse & Logistics": {
+   "mtd_actual": 1661,
+   "ytd_actual": 8161
+  },
+  "Sales & Account Management": {
+   "mtd_actual": 1257,
+   "ytd_actual": 6220
+  },
+  "Procurement & Merchandising": {
+   "mtd_actual": 597,
+   "ytd_actual": 2780
+  },
+  "IT & Digital": {
+   "mtd_actual": 521,
+   "ytd_actual": 2577
+  },
+  "General & Administrative": {
+   "mtd_actual": 796,
+   "ytd_actual": 4178
+  },
+  "Depreciation & amortisation": {
+   "mtd_actual": 400,
+   "ytd_actual": 1982
+  },
+  "Interest expense, net": {
+   "mtd_actual": 132,
+   "ytd_actual": 690
+  },
+  "Taxation": {
+   "mtd_actual": -36,
+   "ytd_actual": 263
+  }
+ }
+}

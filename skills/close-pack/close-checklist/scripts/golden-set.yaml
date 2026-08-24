@@ -1,0 +1,24 @@
+# Golden set — six known-answer checks for the Caldergate May-26 close.
+# Rerun after ANY modification to the skills (threshold edits, wording, new
+# steps). All six must be green before the change is accepted. Deliberately
+# independent of the flag threshold: these assert computed VALUES, so tuning
+# materiality never breaks them — breaking arithmetic does.
+checks:
+  - id: G1
+    name: statement closes to canon
+    expect: "bank statement closing balance == 9,882,613.23"
+  - id: G2
+    name: cashbook closes to canon
+    expect: "cashbook opening + movements == closing == 8,911,388.92 (ties to pack cash 8,911 £'000)"
+  - id: G3
+    name: rec identity to the penny
+    expect: "bank close - unpresented + uncleared == cashbook close, from a fresh reconcile run"
+  - id: G4
+    name: closing items and the stale cheque
+    expect: "exactly 6 closing entries; exactly 1 stale — cheque 004182, £1,850.00"
+  - id: G5
+    name: Industrial Consumables variance
+    expect: "May-26 MTD variance == +103.0 (£'000), from a fresh variance run"
+  - id: G6
+    name: COGS and total variance
+    expect: "COGS variance == +244.0; total variance == +545.0 (£'000)"
