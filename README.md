@@ -1,5 +1,8 @@
 # The Audited AI Close
 
+**Review the project:** [case study, implementation and control boundaries](CASE_STUDY.md) ·
+[finance-team runbook](handover/RUNBOOK.md) · [setup](WIRING.md).
+
 A complete month-end close — bank reconciliation, variance report, management
 pack, sealed audit binder — run by Claude inside a standard claude.ai
 licence, with a human reviewer gate between every step.
@@ -82,7 +85,8 @@ audit binder.
 ## Verify it
 
 ```bash
-cd erp-api && pip install -r requirements.txt && python -m pytest tests -q
+python -m pip install -r erp-api/requirements.txt pytest httpx
+python -m pytest erp-api/tests -q
 ```
 
 The golden set (`skills/close-pack/close-checklist/scripts/run_goldens.py`)
